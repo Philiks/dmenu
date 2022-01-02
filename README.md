@@ -15,4 +15,5 @@ $ patch -p1 < <patch>
 
 ## Patches applied (in order)
 - [border](https://tools.suckless.org/dmenu/patches/border/dmenu-border-4.9.diff)
+- [case-insensitive](https://tools.suckless.org/dmenu/patches/case-insensitive/dmenu-caseinsensitive-20200523-db6093f.diff)
 
