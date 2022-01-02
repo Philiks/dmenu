@@ -13,5 +13,6 @@ $ patch -p1 < <patch>
 ```
 > Read this [documentation](https://suckless.org/hacking/) by suckless on how to apply patches.
 
-## Patches applied 
+## Patches applied (in order)
+- [border](https://tools.suckless.org/dmenu/patches/border/dmenu-border-4.9.diff)
 
