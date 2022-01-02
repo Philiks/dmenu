@@ -826,9 +826,9 @@ setup(void)
 			x = info[i].x_org + ((info[i].width  - mw) / 2);
 			y = info[i].y_org + ((info[i].height - mh) / 2);
 		} else {
-			x = info[i].x_org;
-			y = info[i].y_org + (topbar ? 0 : info[i].height - mh);
-			mw = info[i].width;
+			x = info[i].x_org + x_offset;
+			y = info[i].y_org + (topbar ? 0 : info[i].height - mh) + y_offset;
+			mw = info[i].width - (x_offset * 2) - (border_width * 2);
 		}
 
 		XFree(info);

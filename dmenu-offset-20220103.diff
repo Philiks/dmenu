@@ -1,0 +1,30 @@
+diff --git a/config.def.h b/config.def.h
+index 91cc187..0935c45 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -40,3 +40,8 @@ static const char worddelimiters[] = " ";
+ 
+ /* Size of the window border */
+ static const unsigned int border_width = 5;
++
++/* Window x-offset and y-offset (refer to your window manager [i.e. i3]
++   and status bar [i.e. polybar] padding) to adjust the x-offset of dmenu */
++static const unsigned int x_offset = 8;
++static const unsigned int y_offset = 8;
+diff --git a/dmenu.c b/dmenu.c
+index e89ff6d..6b58dbb 100644
+--- a/dmenu.c
++++ b/dmenu.c
+@@ -826,9 +826,9 @@ setup(void)
+ 			x = info[i].x_org + ((info[i].width  - mw) / 2);
+ 			y = info[i].y_org + ((info[i].height - mh) / 2);
+ 		} else {
+-			x = info[i].x_org;
+-			y = info[i].y_org + (topbar ? 0 : info[i].height - mh);
+-			mw = info[i].width;
++			x = info[i].x_org + x_offset;
++			y = info[i].y_org + (topbar ? 0 : info[i].height - mh) + y_offset;
++			mw = info[i].width - (x_offset * 2) - (border_width * 2);
+ 		}
+ 
+ 		XFree(info);

@@ -22,4 +22,6 @@ $ patch -p1 < <patch>
 - [alpha](https://tools.suckless.org/dmenu/patches/alpha/dmenu-alpha-20210605-1a13d04.diff)
 - [lineheight](https://tools.suckless.org/dmenu/patches/line-height/dmenu-lineheight-5.0.diff)
 - [numbers](https://tools.suckless.org/dmenu/patches/numbers/dmenu-numbers-4.9.diff)
+- [offset](./dmenu-offset-20220103.diff)
+> offset is not a patch from suckless rather it's my own patch to match the padding that I have setup in my polybar and i3 configs.
 

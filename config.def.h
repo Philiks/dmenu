@@ -40,3 +40,8 @@ static const char worddelimiters[] = " ";
 
 /* Size of the window border */
 static const unsigned int border_width = 5;
+
+/* Window x-offset and y-offset (refer to your window manager [i.e. i3]
+   and status bar [i.e. polybar] padding) to adjust the x-offset of dmenu */
+static const unsigned int x_offset = 8;
+static const unsigned int y_offset = 8;
