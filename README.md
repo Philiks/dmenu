@@ -19,4 +19,5 @@ $ patch -p1 < <patch>
 - [fuzzyhighlight](https://tools.suckless.org/dmenu/patches/fuzzyhighlight/dmenu-fuzzyhighlight-4.9.diff)
 - [fuzzymatch](https://tools.suckless.org/dmenu/patches/fuzzymatch/dmenu-fuzzymatch-4.9.diff)
 - [center](https://tools.suckless.org/dmenu/patches/center/dmenu-center-20200111-8cd37e1.diff)
+- [alpha](https://tools.suckless.org/dmenu/patches/alpha/dmenu-alpha-20210605-1a13d04.diff)
 
