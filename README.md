@@ -18,4 +18,5 @@ $ patch -p1 < <patch>
 - [case-insensitive](https://tools.suckless.org/dmenu/patches/case-insensitive/dmenu-caseinsensitive-20200523-db6093f.diff)
 - [fuzzyhighlight](https://tools.suckless.org/dmenu/patches/fuzzyhighlight/dmenu-fuzzyhighlight-4.9.diff)
 - [fuzzymatch](https://tools.suckless.org/dmenu/patches/fuzzymatch/dmenu-fuzzymatch-4.9.diff)
+- [center](https://tools.suckless.org/dmenu/patches/center/dmenu-center-20200111-8cd37e1.diff)
 
